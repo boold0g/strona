@@ -1,11 +1,12 @@
 import Nav from "./Nav";
+import classes from "./Header.module.css";
 function Header() {
   return (
-    <div id="header">
-      <Nav text="Strona Główna" />
-      <Nav text="Galeria" />
-      <Nav text="Projekty" />
-      <Nav text="Kontakt" />
+    <div className={classes.header}>
+      <Nav text="Strona Główna" link="/" />
+      <Nav text="Galeria" link="/galeria" />
+      <Nav text="Projekty" link="/projekty" />
+      <Nav text="Kontakt" link="/kontakt" />
     </div>
   );
 }

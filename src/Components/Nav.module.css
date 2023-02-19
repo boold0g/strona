@@ -1,0 +1,21 @@
+.nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  justify-content: center;
+  color: whitesmoke;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.nav:hover div,
+.nav:hover {
+  animation-name: nav;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes nav {
+  to {
+    background-color: gray;
+  }
+}
