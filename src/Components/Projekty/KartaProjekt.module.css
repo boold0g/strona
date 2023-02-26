@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   animation-name: unshadow;
-  animation-duration: 0.5s;
+  animation-duration: 0.2s;
   animation-timing-function: linear;
   text-align: center;
 }
@@ -34,7 +34,7 @@
 }
 .karta:hover {
   animation-name: shadow;
-  animation-duration: 0.5s;
+  animation-duration: 0.2s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
 }
