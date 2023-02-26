@@ -1,0 +1,17 @@
+.kartaContainer {
+  width: 30vw;
+  height: 60vh;
+  background-color: #edede9;
+  display: flex;
+  justify-content: center;
+}
+.karta {
+  width: 25vw;
+  height: 60vh;
+  background-color: #d6ccc2;
+  border-radius: 2vh;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

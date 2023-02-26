@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Strony() {
   return (
     <div className={classes.header}>
+      <div id={classes.logo}></div>
       <Link className={classes.nav} to="/">
         <div>Strona Główna</div>
       </Link>
@@ -19,6 +20,5 @@ function Strony() {
     </div>
   );
 }
-
 
 export default Strony;

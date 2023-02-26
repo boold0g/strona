@@ -1,7 +1,16 @@
+import KartaProjekt from "../Components/Projekty/KartaProjekt";
+
 function ProjektyPage() {
   return (
     <div id="projekty">
-      <div>Projekty</div>
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
+      <KartaProjekt />
     </div>
   );
 }
