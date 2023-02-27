@@ -1,4 +1,5 @@
-import KartaProjekt from "../Components/Projekty/KartaProjekt";
+import KartaProjekt from "../Components/Projekty/Karta/KartaProjekt";
+import Przycisk from "../Components/Projekty/Przycisk/Przycisk";
 
 function ProjektyPage() {
   return (
@@ -7,10 +8,7 @@ function ProjektyPage() {
       <KartaProjekt />
       <KartaProjekt />
       <KartaProjekt />
-      <KartaProjekt />
-      <KartaProjekt />
-      <KartaProjekt />
-      <KartaProjekt />
+      <Przycisk />
     </div>
   );
 }

@@ -4,7 +4,7 @@
   align-items: center;
   width: 15vw;
   justify-content: center;
-  color: black;
+  color: white;
   text-decoration: none;
   text-align: center;
 }
@@ -22,7 +22,7 @@
 }
 .header {
   height: 10vh;
-  background-color: #d5bdaf;
+  background-color: #44319b;
   width: 100%;
   display: flex;
   flex-direction: row;
